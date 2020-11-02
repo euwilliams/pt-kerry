@@ -1,0 +1,584 @@
+@font-face {
+  font-family: 'GreycliffCF-Bold';
+  src: url(https://www.myfonts.com/fonts/connary-fagen/greycliff-cf/bold/);
+}
+
+@font-face {
+  font-family: 'GreycliffCF-BoldOblique';
+  src: url(https://www.myfonts.com/fonts/connary-fagen/greycliff-cf/bold-oblique/);
+}
+@font-face {
+  font-family: 'GreycliffCF-Regular';
+  src: url(https://www.myfonts.com/fonts/connary-fagen/greycliff-cf/regular/);
+}
+@font-face {
+  font-family: 'GreycliffCF-Regular';
+  src: url(https://www.myfonts.com/fonts/connary-fagen/greycliff-cf/regular-oblique/);
+}
+
+/*colors
+
+GREEN - #195130
+LGT PINK - #f7f0f0
+PINK - #f7e2e9
+DARK PINK - #febdc2
+
+*/
+
+body{
+  background-color: #f7f0f0;
+}
+
+
+
+.bg-light{
+  background-color: #f7f0f0!important;
+}
+
+.navbar-light .navbar-toggler{
+  background-color: #f7f0f0;
+  border: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  float: right;
+  margin-right: 2.7em;
+  font-family: 'GreycliffCF-Regular';
+  color: #febdc2;
+  border-bottom: .09em solid #195130;
+}
+
+#nav li:active{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130!important;
+}
+
+header{
+  margin-top: 1em;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  background-color: #f7e2e9;
+  margin-bottom: 2em;
+}
+
+header h3{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  padding-bottom: .5em;
+}
+
+header p{
+    font-family: 'GreycliffCF-Regular';
+    color: #195130;
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+#help h2{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.8em;
+  margin-bottom: .8em;
+}
+
+#help ul{
+    list-style: none;
+    font-family: 'GreycliffCF-Regular';
+    color: #195130;
+    font-size: 1em;
+}
+
+#help ul:nth-child(1){
+  font-family: 'GreycliffCF-Bold';
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+
+#help a{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.2em;
+}
+
+#help ul{
+  margin-top: 1.6em;
+}
+@media (min-width: 768px){
+  #help #plan{
+    margin-top: 3.2em;
+  }
+  #help h2{
+  margin-left: 7.5em;
+  }
+}
+
+#request{
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  padding-top: 1em;
+  padding-left: 2.2em;
+  padding-bottom: 1em;
+  background-color: #f7e2e9;
+  border: .2em solid #f7e2e9;
+  border-radius: 2em;
+}
+
+#request a{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.2em;
+}
+
+@media (min-width:768px){
+  #request{
+    margin-left: 11em;
+  }
+}
+
+#insurance{
+  background-color: #febdc2;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#insurance ul{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#insurance ul:nth-child(1){
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.5em;
+}
+
+#test1{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+}
+
+#test1 ul{
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  margin-left: 2.2em;
+}
+
+@media (min-width:768px){
+  #test1 ul{
+    margin-left: 9em;
+  }
+}
+
+footer{
+  background-color: #195130;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1em;
+}
+
+footer a{
+  font-family: 'GreycliffCF-Regular';
+  color: #f7f0f0;
+  font-size: 1em;
+}
+
+#hello{
+  margin-bottom: 15em;
+}
+
+#hello img{
+  position: absolute;
+  width: 15em;
+  margin-left: 7em;
+  margin-top: -3em;
+}
+
+@media (min-width:768px){
+  #hello img{
+    width: 20em;
+    margin-left: 22em;
+    margin-top: -105px;
+  }
+}
+
+#hello h1{
+  position: relative;
+  padding-top: .5em;
+  padding-left: .5em;
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 2.5em;
+}
+
+#prof section{
+  background-color: #febdc2;
+}
+
+#phil h2{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.5em;
+  padding-left: 3.2em;
+}
+
+@media (min-width:768px){
+  #phil h2{
+    padding-left: 0em;
+    margin-top: -9em;
+  }
+}
+
+#phil p{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+#education h2{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.5em;
+  padding-left: 4.4em;
+}
+
+@media (min-width:768px){
+  #education h2{
+    padding-left: 0em;
+  }
+}
+
+#education ul{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+@media (min-width:768px){
+  #education ul{
+    padding-left: 0em;
+  }
+}
+
+#education li{
+  margin-bottom: 1em;
+}
+
+#education{
+  margin-bottom: 2em;
+}
+
+#exp{
+  background-color: #febdc2;
+  padding: 2.2em;
+  margin-bottom: 2em;
+}
+
+#exp h2{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.5em;
+  padding-left: 2.2em;
+  padding-bottom: .5em;
+}
+
+@media (min-width:768px){
+  #exp h2{
+    padding-left: 6em;
+  }
+}
+
+#exp ul{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+}
+
+#test{
+  background-color: #f7e2e9;
+  padding-top: 1.5em;
+}
+
+@media (min-width:768px){
+  #test{
+    margin-bottom: 1.5em;
+  }
+}
+
+#test h2{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.5em;
+  padding-left: 3.5em;
+  padding-bottom: .5em;
+}
+
+@media (min-width:768px){
+  #test h2{
+    padding-left: 10.5em;
+  }
+}
+
+#test ul{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+  padding-bottom: 1.5em;
+}
+
+@media (min-width:768px){
+  #test ul{
+    padding-left: 8em;
+  }
+}
+
+#hobbies h2{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.5em;
+  padding-left: 4.5em;
+  padding-bottom: .5em;
+}
+
+@media (min-width:768px){
+  #hobbies h2{
+    padding-left: 12em;
+  }
+}
+
+#hobbies p{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+
+@media (min-width:768px){
+  #hobbies p{
+    margin-left: 12em;
+    margin-bottom: 1.5em;
+  }
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-body{
+  background-color: #f7e2e9;
+}
+
+.card-body img{
+  margin-bottom: 2em;
+}
+
+.card-title{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+}
+
+#resources img{
+  width: 15em;
+}
+
+#resources ul{
+  padding-left: 4em;
+  padding-right: 3em;
+}
+
+#resources a{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+}
+
+#resources h1{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 4.2em;
+}
+
+@media (min-width:768px){
+  #resources img{
+    width: 8em;
+    padding-left: 2em;
+  }
+
+  #resources ul{
+    margin-right: 0;
+  }
+
+  #resources h1{
+    padding-left: 12em;
+  }
+}
+
+#lpink{
+  background-color: #f7e2e9;
+  padding: 1.2em;
+  border: solid #f7e2e9;
+  border-radius: 1em;
+}
+
+#lpink img{
+  margin-bottom: 1.3em;
+}
+
+#pink{
+  background-color: #febdc2;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  padding-right: 1.2em;
+  padding-left: 4em;
+  border: solid #febdc2;
+  border-radius: 1em;
+}
+
+#pink img{
+  margin-bottom: 1.3em;
+}
+
+#lpink2{
+  background-color: #f7e2e9;
+  padding: 1.2em;
+  border: solid #f7e2e9;
+  border-radius: 1em;
+  padding-bottom: 1em;
+}
+
+#lpink2 img{
+  margin-bottom: 1.3em;
+}
+
+#pink2{
+  background-color: #febdc2;
+  padding: 1.2em;
+  border: solid #febdc2;
+  border-radius: 1em;
+}
+
+#pink2 img{
+  margin-bottom: 1.3em;
+}
+
+#lpink3{
+  background-color: #f7e2e9;
+  padding: 1.2em;
+  border: solid #f7e2e9;
+  border-radius: 1em;
+}
+
+#lpink3 img{
+  margin-bottom: 1.3em;
+}
+
+#pink3{
+  background-color: #febdc2;
+  padding: 1.2em;
+  border: solid #febdc2;
+  border-radius: 1em;
+}
+
+#pink3 img{
+  margin-bottom: 1.3em;
+}
+
+@media (min-width:768px){
+  #lpink ul{
+    margin-right: 0;
+  }
+
+  #pink ul{
+
+  }
+}
+
+#appt{
+  margin-bottom: 2em;
+}
+
+
+#appt h1{
+  font-family: 'GreycliffCF-Bold';
+  color: #195130;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+@media (min-width:768px){
+  #appt{
+    margin-bottom: 1em;
+  }
+
+  #appt h1{
+    margin-top: 1em;
+    margin-bottom: .5em;
+  }
+}
+
+#appt p{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1.3em;
+}
+
+#appt ul{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+}
+
+#appt li{
+  margin-bottom: .5em;
+}
+
+form{
+  background-color: #f7e2e9;
+  padding: 2em;
+  border: solid #f7e2e9;
+  border-radius: .5em;
+  margin-bottom: 2em;
+}
+
+#form label{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+}
+
+#form input{
+  margin-bottom: .5em;
+  width: 100%;
+  border: none;
+  border-radius: .5em;
+}
+
+#form input{
+  font-family: 'GreycliffCF-Regular';
+  color: #195130;
+  font-size: 1em;
+  background-color: #f7f0f0;
+}
+
+#form textarea{
+  width: 100%;
+  height: 10em;
+  border: none;
+  border-radius: .5em;
+  background-color: #f7f0f0;
+  margin-bottom: 1em;
+}

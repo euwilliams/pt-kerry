@@ -12,9 +12,9 @@
 <div class="container">
   <div class="row">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html"><img class="col-lg-7 img-fluid" src="images/green_logo.png" alt="Logo next to Pelvic Health Physical Therapy text"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="col-9 col-md-6 navbar-brand" href="index.html"><img class="img-fluid" src="images/green_logo.png" alt="Logo next to Pelvic Health Physical Therapy text"></a>
+      <button class="col-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -35,46 +35,117 @@
       </div>
     </nav>
 
-<header>
-  <h2>After only five months of treatment, I now have my life back and can live like a normal college student! Dr. Kerry Winge is absolutely the best, at such an uncomfortable time in my life she made me feel normal and not broken.</h2>
-  <p>Kylie P.</p>
+<header class="col-12">
+  <h3 class="col-11 col-md-7">"Kerry has helped me regain aspects of my life that I thought were gone. She has helped remind me that healing isn’t linear, and that management is huge part of the process. I am forever grateful to her for giving me hope once again."</h3>
+  <p>Emily D.</p>
   </header>
 
-<div>
-  <h3>HOW I CAN HELP</h3>
-    <ul>
+
+
+  <!--<div class="accordion .d-none .d-sm-block .d-md-none" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          LISTEN
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Tell me what is going on and how this problem is affecting your life. On average, patients have been to 3-4 practitioners prior to coming in to see me. I want my clinicto be your last stop.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          EVALUATION
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        I will evaluate your condition with only necessary tests and measures to make a definitive diagnosis. You are already uncomfortable, so I am only going to gather the information necessary to identify the root of your problem.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          PLAN
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Once a diagnosis is made, I will explain the different tools that can be individually combined to treat your condition. Together, we will develop a plan that will meet all your goals.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          TREATMENT
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        There are three options for private, one-on-one treatment. In person, Telehealth, or a hybrid model that combines both in-clinic and Telehealth. Treatment time is 1 hour on average. Duration of treatment is based in how quickly your goals are accomplished.
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<section class="col-12" id="help">
+  <h2 class="col-12 ">HOW I CAN HELP</h2>
+    <ul class="col-11 col-md-6 list-unstyled float-md-left">
       <li>LISTENING</li>
       <li>Tell me what is going on and how this problem is affecting your life. On average, patients have been to 3-4 practitioners prior to coming in to see me. I want my clinicto be your last stop.</li>
+    </ul>
+    <ul class="col-11 col-md-6 list-unstyled float-md-right">
       <li>EVALUATION</li>
       <li>I will evaluate your condition with only necessary tests and measures to make a definitive diagnosis. You are already uncomfortable, so I am only going to gather the information necessary to identify the root of your problem.</li>
+    </ul>
+    <ul class="col-11 col-md-6 list-unstyled float-md-left" id="plan">
       <li>PLANNING</li>
       <li>Once a diagnosis is made, I will explain the different tools that can be individually combined to treat your condition. Together, we will develop a plan that will meet all your goals.</li>
+    </ul>
+    <ul class="col-11 col-md-6 list-unstyled float-md-right">
       <li>TREATMENT</li>
       <li>There are three options for private, one-on-one treatment. In person, Telehealth, or a hybrid model that combines both in-clinic and Telehealth. Treatment time is 1 hour on average. Duration of treatment is based in how quickly your goals are accomplished.</li>
     </ul>
-    <a href="contact.html">REQUEST AN APPOINTMENT</a>
+</section>
+
+<div class="col-12 col-md-6" id="request">
+  <a class="col-6" href="contact.html">REQUEST AN APPOINTMENT</a>
 </div>
 
-<article>
-  <h2>Insurance and Billing</h2>
-    <p>Full service insurance billing is available for both in and out of network providers. MasterCard, Visa, FSA, HSA, and cash payments are accepted. Co-pays are due at the time of visit.</p>
+<article class="col-12" id="insurance">
+  <ul class="list-unstyled">
+    <li>INSURANCE AND BILLING</li>
+    <li><br></li>
+    <li>Full service insurance billing is available for both in and out of network providers. MasterCard, Visa, FSA, HSA, and cash payments are accepted. Co-pays are due at the time of visit.</li>
+  </ul>
   </article>
 
-  <div>
-    <ul>
-      <li> At first, I was scared and skeptical. I didn’t know this type of therapy existed-- or that I needed it. You are in good hands with Dr. Winge!</li>
+  <div class="col-12" id="test1">
+    <ul class=" col-9 col-md-7 list-unstyled">
+      <li> At first, I was scared and skeptical. I didn’t know this type of therapy existed — or that I needed it. You are in good hands with Dr. Winge!</li>
+      <li><br></li>
       <li>Mary F.</li>
     </ul>
   </div>
 
-<footer>
-  <img src="images/light_pink_logo.png" alt="logo with Pelvic Health Physical Therapy text next to it in light pink">
-    <ul>
-      <li>address</li>
-      <li>phone</li>
-      <li>fax</li>
-      <li>email</li>
-      </ul>
+<footer class="col-12">
+  <img class="col-3 col-md-2 img-fluid" src="images/light_pink_icon.png" alt="logo with Pelvic Health Physical Therapy text next to it in light pink">
+  <a href="contact.html">CONTACT US</a>
 </footer>
 
 
