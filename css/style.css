@@ -44,13 +44,13 @@ body{
   float: right;
   margin-right: 2.7em;
   font-family: 'GreycliffCF-Regular';
-  color: #febdc2;
-  border-bottom: .09em solid #195130;
+  color: #E07EAC;
 }
 
-#nav li:active{
+.navbar-nav .nav-link li:active{
   font-family: 'GreycliffCF-Regular';
   color: #195130!important;
+  border-bottom: .09em solid #195130;
 }
 
 header{
@@ -79,7 +79,7 @@ header p{
 #help h2{
   font-family: 'GreycliffCF-Bold';
   color: #195130;
-  font-size: 1.8em;
+  font-size: 1.5em;
   margin-bottom: .8em;
 }
 
@@ -114,8 +114,18 @@ header p{
   }
 }
 
+@media (min-width:992px){
+  #help h2{
+  margin-left: 14em;
+  }
+  #help #plan{
+    margin-top: 1.6em;
+  }
+}
+
 #request{
   margin-bottom: 1.5em;
+  margin-left: 1em;
   margin-top: 1.5em;
   padding-top: 1em;
   padding-left: 2.2em;
@@ -137,6 +147,16 @@ header p{
   }
 }
 
+@media(min-width:992px){
+  #request{
+    margin-left: 18em;
+  }
+
+  #request a{
+    padding-left: 2em;
+  }
+}
+
 #insurance{
   background-color: #febdc2;
   padding-top: 2em;
@@ -155,6 +175,13 @@ header p{
   font-size: 1.5em;
 }
 
+@media (min-width:992px){
+  #insurance ul{
+    padding-left: 1.5em;
+    padding-right: 3em;
+  }
+}
+
 #test1{
   font-family: 'GreycliffCF-Regular';
   color: #195130;
@@ -170,6 +197,18 @@ header p{
 @media (min-width:768px){
   #test1 ul{
     margin-left: 9em;
+  }
+}
+
+@media (min-width:992px){
+  #test1 ul{
+    font-family: 'GreycliffCF-Regular';
+    color: #195130;
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 20em;
   }
 }
 
@@ -205,6 +244,15 @@ footer a{
   }
 }
 
+@media (min-width:992px){
+  #hello{
+    margin-bottom: 20em;
+  }
+  #hello img{
+    margin-left: 35em;
+  }
+}
+
 #hello h1{
   position: relative;
   padding-top: .5em;
@@ -218,6 +266,12 @@ footer a{
   background-color: #febdc2;
 }
 
+@media (min-width:992px){
+  #prof{
+    margin-bottom: 1.5em;
+  }
+}
+
 #phil h2{
   font-family: 'GreycliffCF-Bold';
   color: #195130;
@@ -229,6 +283,12 @@ footer a{
   #phil h2{
     padding-left: 0em;
     margin-top: -9em;
+  }
+}
+
+@media (min-width:992px){
+  #phil h2{
+    margin-top: -11.5em;
   }
 }
 
@@ -277,7 +337,17 @@ footer a{
 #exp{
   background-color: #febdc2;
   padding: 2.2em;
-  margin-bottom: 2em;
+
+}
+
+@media (min-width:992px){
+  #education{
+    margin-top: 2em;
+  }
+
+  #exp{
+    margin-top: 2em;
+  }
 }
 
 #exp h2{
@@ -291,6 +361,12 @@ footer a{
 @media (min-width:768px){
   #exp h2{
     padding-left: 6em;
+  }
+}
+
+@media (min-width:992px){
+  #exp h2{
+    padding-left: 0em;
   }
 }
 
@@ -325,6 +401,14 @@ footer a{
   }
 }
 
+@media (min-width:992px){
+  #test h2{
+    padding-left: 16em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+  }
+}
+
 #test ul{
   font-family: 'GreycliffCF-Regular';
   color: #195130;
@@ -335,6 +419,13 @@ footer a{
 @media (min-width:768px){
   #test ul{
     padding-left: 8em;
+  }
+}
+
+@media (min-width:992px){
+  #test ul{
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }
 
@@ -352,6 +443,13 @@ footer a{
   }
 }
 
+@media (min-width:992px){
+  #hobbies h2{
+    padding-left: 0em;
+    margin-top: -4em;
+  }
+}
+
 #hobbies p{
   font-family: 'GreycliffCF-Regular';
   color: #195130;
@@ -366,6 +464,14 @@ footer a{
   }
 }
 
+@media (min-width:992px){
+  #hobbies p{
+    margin-left: 7em;
+    margin-top: -3em;
+
+  }
+}
+
 .card-columns {
   @include media-breakpoint-only(lg) {
     column-count: 4;
@@ -377,6 +483,11 @@ footer a{
 
 .card-body{
   background-color: #f7e2e9;
+  border: none;
+}
+
+.p-3{
+  padding: 0!important;
 }
 
 .card-body img{
@@ -385,7 +496,7 @@ footer a{
 
 .card-title{
   font-family: 'GreycliffCF-Regular';
-  color: #195130;
+  color: #195130!important;
   font-size: 1em;
 }
 
@@ -424,6 +535,12 @@ footer a{
 
   #resources h1{
     padding-left: 12em;
+  }
+}
+
+@media (min-width:768px){
+  #resources h1{
+    padding-left: 16.5em;
   }
 }
 
@@ -552,6 +669,12 @@ form{
   border: solid #f7e2e9;
   border-radius: .5em;
   margin-bottom: 2em;
+}
+
+@media (min-width:992px){
+  form{
+    margin-top: 9em;
+  }
 }
 
 #form label{
