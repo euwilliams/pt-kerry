@@ -43,12 +43,16 @@ body{
 .navbar-light .navbar-nav .nav-link{
   float: right;
   margin-right: 2.7em;
-  font-family: 'GreycliffCF-Regular';
   color: #E07EAC;
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .navbar-nav .nav-link li:active{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130!important;
   border-bottom: .09em solid #195130;
 }
@@ -62,7 +66,9 @@ header{
 }
 
 header h3{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.2em;
   line-height: 1.6em;
@@ -70,14 +76,18 @@ header h3{
 }
 
 header p{
-    font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
     color: #195130;
     font-size: 1em;
     padding-left: 1em;
 }
 
 #help h2{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.5em;
   margin-bottom: .8em;
@@ -85,19 +95,25 @@ header p{
 
 #help ul{
     list-style: none;
-    font-family: 'GreycliffCF-Regular';
+    font-family: 'sofia-pro', sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: #195130;
     font-size: 1em;
 }
 
 #help ul:nth-child(1){
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 1.5em;
   margin-bottom: .5em;
 }
 
 #help a{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.2em;
 }
@@ -142,7 +158,9 @@ header p{
 }
 
 #request a{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.2em;
 }
@@ -183,13 +201,17 @@ header p{
 #insurance ul{
   padding-left: 1em;
   padding-right: 1em;
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1.2em;
 }
 
 #insurance ul:nth-child(1){
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.5em;
 }
@@ -208,7 +230,9 @@ header p{
 }
 
 #test1{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
 }
@@ -227,7 +251,9 @@ header p{
 
 @media (min-width:992px){
   #test1 ul{
-    font-family: 'GreycliffCF-Regular';
+    font-family: 'sofia-pro', sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: #195130;
     font-size: 1.5em;
     margin-left: 2em;
@@ -245,7 +271,9 @@ footer{
 }
 
 footer a{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #f7f0f0;
   font-size: 1em;
 }
@@ -288,7 +316,9 @@ footer a{
   position: relative;
   padding-top: .5em;
   padding-left: .5em;
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 2.5em;
 }
@@ -304,7 +334,9 @@ footer a{
 }
 
 #phil h2{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.5em;
   padding-left: 3.2em;
@@ -324,14 +356,18 @@ footer a{
 }
 
 #phil p{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
   margin-bottom: 2em;
 }
 
 #education h2{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.5em;
   padding-left: 4.4em;
@@ -344,7 +380,9 @@ footer a{
 }
 
 #education ul{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
   padding-left: .5em;
@@ -382,7 +420,9 @@ footer a{
 }
 
 #exp h2{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.5em;
   padding-left: 2.2em;
@@ -402,7 +442,9 @@ footer a{
 }
 
 #exp ul{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
 }
@@ -419,7 +461,9 @@ footer a{
 }
 
 #test h2{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.5em;
   padding-left: 3.5em;
@@ -447,7 +491,9 @@ footer a{
 }
 
 #test ul{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
   padding-bottom: 1.5em;
@@ -463,11 +509,14 @@ footer a{
   #test ul{
     padding-left: 3em;
     padding-right: 3em;
+    line-height: 2em;
   }
 }
 
 #hobbies h2{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.5em;
   padding-left: 4.5em;
@@ -488,7 +537,9 @@ footer a{
 }
 
 #hobbies p{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
   margin-bottom: 1.5em;
@@ -509,11 +560,11 @@ footer a{
   }
 }
 
-.card-columns {
-  @include media-breakpoint-only(lg) {
+.card-columns{
+  @include media-breakpoint-only(lg){
     column-count: 4;
   }
-  @include media-breakpoint-only(xl) {
+  @include media-breakpoint-only(xl){
     column-count: 5;
   }
 }
@@ -532,7 +583,9 @@ footer a{
 }
 
 .card-title{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130!important;
   font-size: 1em;
 }
@@ -547,13 +600,17 @@ footer a{
 }
 
 #resources a{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
 }
 
 #resources h1{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 1.5em;
   margin-bottom: 1.5em;
@@ -673,7 +730,9 @@ footer a{
 
 
 #appt h1{
-  font-family: 'GreycliffCF-Bold';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #195130;
   font-size: 2em;
   margin-bottom: 1em;
@@ -691,13 +750,17 @@ footer a{
 }
 
 #appt p{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1.3em;
 }
 
 #appt ul{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
 }
@@ -721,7 +784,9 @@ form{
 }
 
 #form label{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
 }
@@ -734,7 +799,9 @@ form{
 }
 
 #form input{
-  font-family: 'GreycliffCF-Regular';
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: #195130;
   font-size: 1em;
   background-color: #f7f0f0;
