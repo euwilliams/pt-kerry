@@ -268,7 +268,7 @@ footer a{
   position: absolute;
   width: 15em;
   margin-left: 7em;
-  margin-top: -3em;
+  margin-top: -1.6em;
 }
 
 @media (min-width:768px){
@@ -303,6 +303,7 @@ footer a{
   font-style: normal;
   color: #195130;
   font-size: 2.5em;
+  z-index: 4;
 }
 
 #prof section{
@@ -508,6 +509,7 @@ footer a{
 @media (min-width:768px){
   #hobbies h2{
     padding-left: 12em;
+    margin-top: 2em;
   }
 }
 
