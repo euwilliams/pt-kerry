@@ -1,21 +1,3 @@
-@font-face {
-  font-family: 'GreycliffCF-Bold';
-  src: url(https://www.myfonts.com/fonts/connary-fagen/greycliff-cf/bold/);
-}
-
-@font-face {
-  font-family: 'GreycliffCF-BoldOblique';
-  src: url(https://www.myfonts.com/fonts/connary-fagen/greycliff-cf/bold-oblique/);
-}
-@font-face {
-  font-family: 'GreycliffCF-Regular';
-  src: url(https://www.myfonts.com/fonts/connary-fagen/greycliff-cf/regular/);
-}
-@font-face {
-  font-family: 'GreycliffCF-Regular';
-  src: url(https://www.myfonts.com/fonts/connary-fagen/greycliff-cf/regular-oblique/);
-}
-
 /*colors
 
 GREEN - #195130
@@ -805,6 +787,7 @@ form{
   color: #195130;
   font-size: 1em;
   background-color: #f7f0f0;
+  padding: .5em;
 }
 
 #form textarea{
