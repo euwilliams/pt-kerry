@@ -355,10 +355,10 @@ footer{
 
 footer a{
   font-family: 'sofia-pro', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   color: #f7f0f0;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 footer span{
@@ -377,7 +377,28 @@ footer p{
   color: #f7f0f0;
   font-size: 1em;
   margin-left: 5.5em;
-  margin-top: -1em;
+  margin-top: -2.5em;
+}
+
+#address ul{
+  margin-left: 5.4em;
+}
+
+footer h3{
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f7f0f0;
+  font-size: 1.3em;
+}
+
+footer li{
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #f7f0f0;
+  font-size: 1em;
+  margin-left: 5.4em;
 }
 
 footer img{
@@ -389,12 +410,24 @@ footer img{
     margin-left: 7.6em;
     margin-top: -2.5em;
   }
+
+  footer li{
+    margin-left: 7.5em;
+  }
 }
 
 @media (min-width:992px){
   footer p{
     margin-left: 5.2em;
     margin-top: -1.5em;
+  }
+
+  footer li{
+    margin-right: 6em;
+  }
+
+  footer ul{
+    margin-top: -4.5em;
   }
 }
 
