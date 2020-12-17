@@ -35,7 +35,7 @@ if ($mail_status) { ?>
 else{ ?>
   <script language="javascript" type="text/javascript">
   alert('Message sending failed. Please send an email to pelvichealthptwv@gmail.com');
-else { ?>
+else{ ?>
  <script language="javascript" type="text/javascript">
   alert('Message sending failed. Please, send an email to pelvichealthptwv@gmail.com');
   window.location = 'contact.html';
