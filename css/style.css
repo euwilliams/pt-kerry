@@ -144,6 +144,53 @@ header p{
   }
 }
 
+#pay{
+  margin-left: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  padding-top: .5em;
+  padding-left: 4.5em;
+  padding-bottom: .5em;
+  background-color: #febdc2;
+  border: .5em solid #f7e2e9;
+  border-radius: 2em;
+}
+
+#pay a{
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #195130;
+  font-size: 1.2em;
+}
+
+@media (min-width:768px){
+  #pay{
+    margin-left: 13em;
+    padding-left: 4em;
+  }
+}
+
+@media(min-width:992px){
+  #pay{
+    margin-left: 21em;
+  }
+
+  #pay a{
+    padding-left: .7em;
+  }
+}
+
+@media(min-width:1200px){
+  #pay{
+    margin-left: 25em;
+  }
+
+  #pay a{
+    padding-left: 2em;
+  }
+}
+
 #appointment{
   margin-left: 1em;
   margin-top: 1.5em;
@@ -173,6 +220,48 @@ header p{
 @media(min-width:1200px){
   #appointment a{
     padding-left: 1em;
+  }
+}
+
+#pay2{
+  margin-left: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  padding-top: .5em;
+  padding-left: 3.5em;
+  padding-bottom: .5em;
+  background-color: #febdc2;
+  border: .5em solid #f7e2e9;
+  border-radius: 2em;
+}
+
+#pay2 a{
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #195130;
+  font-size: 1.2em;
+}
+
+@media (min-width:768px){
+  #pay2{
+    padding-left: 3.4em;
+  }
+}
+
+@media (min-width:992px){
+  #pay2 {
+    padding-left: 2.8em;
+  }
+}
+
+@media(min-width:1200px){
+  #pay2 a{
+    padding-left: 1em;
+  }
+
+  #pay2 {
+    padding-left: 3em;
   }
 }
 
